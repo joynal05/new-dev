@@ -1,15 +1,17 @@
 header {
+    width: 1100px;
     height: 72px;
     background: white;
-    width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
 .logo img {
     width: 150px;
-    margin-left: 100px;
+
 }
 
 .menu ul {
@@ -31,9 +33,10 @@ header {
     margin: 0 0 0 20px;
     font-size: small;
     font-weight: 700px;
-    
+
 }
-.login-btn{
+
+.login-btn {
     display: block;
     cursor: pointer;
     background-color: rgb(230, 63, 63);
@@ -43,31 +46,36 @@ header {
     font-weight: 700px;
 }
 
-.banner{
-    width: 50%;
-    height: 70%;
-    position: absolute;
-    top: 25%;
-    left: 150px;
+.banner {
+    width: 1100px;
+
+
+
+
+    margin: auto;
     color: rgb(12, 10, 10);
+    border: 1px solid;
+    background: #eee;
+    display: flex;
+    align-items: center;
 }
 
-.app-text{
-    width: 50%;
-    float: left;
+.app-text {
+
+
     padding-left: 50px;
 }
 
-.app-text h3{
+.app-text h3 {
     margin-top: 100px;
     font-size: 17px;
-    color:  #000;
+    color: #000;
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.app-text h1{
+.app-text h1 {
     font-size: 51px;
     position: relative;
     color: #000;
@@ -76,9 +84,20 @@ header {
     line-height: 1;
 }
 
-.app-text p{
+.app-text p {
     font-size: 20px;
-    margin: 30px 30px 30px 0;
+
     letter-spacing: 1px;
-    padding-right: 250px;
+
+}
+
+.app-text {
+    width: 50%;
+}
+
+
+.app-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
