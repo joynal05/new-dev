@@ -2,7 +2,6 @@ header {
     width: 1100px;
     height: 72px;
     background: white;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,20 +47,15 @@ header {
 
 .banner {
     width: 1100px;
-
-
-
-
     margin: auto;
     color: rgb(12, 10, 10);
     border: 1px solid;
-    background: #eee;
+    
     display: flex;
     align-items: center;
 }
 
 .app-text {
-
 
     padding-left: 50px;
 }
@@ -100,4 +94,5 @@ header {
     width: 50%;
     display: flex;
     justify-content: center;
+     
 }
