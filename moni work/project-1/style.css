@@ -101,11 +101,23 @@ header {
 }
 .signup-btn{
     cursor: pointer;
-    display: block;
+    display: inline;
     color: #ffff;
     background-color: rgb(230, 63, 63);
     font-size: small;
     padding: 10px 20px;
     border-radius: 6px;
     text-align: center;
+}
+.click-btn{
+    cursor: pointer;
+    display: inline;
+    color:#000;    
+    font-size: small;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-align: center;    
+    border: 2px solid rgb(202, 54, 54);
+    border-radius: 8px;
+    padding: 5px;
 }
