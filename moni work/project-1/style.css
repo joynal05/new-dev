@@ -43,7 +43,7 @@ header {
 .login-btn {
     display: block;
     cursor: pointer;
-    background-color: rgb(230, 63, 63);
+    background-color: rgb(241, 82, 82);
     color: white;
     font-size: small;
     padding: 10px 20px;
@@ -59,7 +59,7 @@ header {
     align-items: center;
     background-image: url(./image/logo3.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;    
 }
 
 .app-text {
@@ -69,7 +69,7 @@ header {
 
 .app-text h3 {
     font-size: 17px;
-    color: #000;
+    color: rgb(250, 108, 108);
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -103,21 +103,49 @@ header {
     cursor: pointer;
     display: inline;
     color: #ffff;
-    background-color: rgb(230, 63, 63);
+    background-color: rgb(241, 82, 82);
     font-size: small;
     padding: 10px 20px;
     border-radius: 6px;
     text-align: center;
+    text-decoration: initial;
 }
 .click-btn{
+    display: block;
     cursor: pointer;
-    display: inline;
-    color:#000;    
     font-size: small;
-    padding: 10px 20px;
+    padding: 9px 25px;
     border-radius: 6px;
-    text-align: center;    
-    border: 2px solid rgb(202, 54, 54);
-    border-radius: 8px;
-    padding: 5px;
+    border: 1px solid #f13c3c;
+    text-decoration: initial;
 }
+.banner-buttons-wrapper {
+       display: flex;
+       gap: 10px;
+       align-items: center;
+}
+.row h3 {
+
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 64px 0px 0px 147px;
+
+}
+
+.pera1{
+    padding: 5px 0 0 147px;
+    
+}
+
+.about-caption{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
+
+
